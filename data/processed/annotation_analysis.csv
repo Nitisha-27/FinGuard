@@ -1,0 +1,16 @@
+text,annotator_1,annotator_2,annotator_3,all_agree,disagreement
+The company's revenue increased by 12% last quarter.,Informational,Informational,Informational,True,False
+The stock closed at Rs. 450 today.,Informational,Informational,Informational,True,False
+The company reported a net loss this year.,Informational,Informational,Informational,True,False
+Consider buying this stock before its price rises.,Advisory,Advisory,Advisory,True,False
+You should sell your shares to avoid further losses.,Advisory,Advisory,Advisory,True,False
+Invest 20% of your savings in this fund.,Advisory,Advisory,Advisory,True,False
+"The stock may rise, but its future performance is unclear.",Uncertain,Uncertain,Informational,False,True
+This company looks attractive to investors.,Uncertain,Advisory,Uncertain,False,True
+You could consider reviewing this fund before investing.,Uncertain,Advisory,Uncertain,False,True
+Interest rates remained unchanged this month.,Informational,Informational,Informational,True,False
+Investors should diversify their portfolios.,Advisory,Advisory,Informational,False,True
+The company announced a new product launch.,Informational,Informational,Informational,True,False
+This stock is likely to outperform the market.,Uncertain,Advisory,Uncertain,False,True
+Do not invest money you cannot afford to lose.,Advisory,Informational,Advisory,False,True
+The fund returned 8% over the past year.,Informational,Informational,Informational,True,False

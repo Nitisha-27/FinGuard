@@ -1,0 +1,17 @@
+
+text,annotator_1,annotator_2,annotator_3
+"The company's revenue increased by 12% last quarter.",Informational,Informational,Informational
+"The stock closed at Rs. 450 today.",Informational,Informational,Informational
+"The company reported a net loss this year.",Informational,Informational,Informational
+"Consider buying this stock before its price rises.",Advisory,Advisory,Advisory
+"You should sell your shares to avoid further losses.",Advisory,Advisory,Advisory
+"Invest 20% of your savings in this fund.",Advisory,Advisory,Advisory
+"The stock may rise, but its future performance is unclear.",Uncertain,Uncertain,Informational
+"This company looks attractive to investors.",Uncertain,Advisory,Uncertain
+"You could consider reviewing this fund before investing.",Uncertain,Advisory,Uncertain
+"Interest rates remained unchanged this month.",Informational,Informational,Informational
+"Investors should diversify their portfolios.",Advisory,Advisory,Informational
+"The company announced a new product launch.",Informational,Informational,Informational
+"This stock is likely to outperform the market.",Uncertain,Advisory,Uncertain
+"Do not invest money you cannot afford to lose.",Advisory,Informational,Advisory
+"The fund returned 8% over the past year.",Informational,Informational,Informational
