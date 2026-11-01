@@ -21,12 +21,17 @@ app = FastAPI(
     version="1.0.0",
 )
 
+# CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://fin-guard-ten.vercel.app",
+        "https://finguard-ten.vercel.app",
+    ],
     allow_credentials=False,
-    allow_methods=["GET", "POST"],
-    allow_headers=["Content-Type"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
@@ -81,7 +86,6 @@ def build_prompt():
         '{"label":"Informational|Advisory|Uncertain",'
         '"explanation":"One concise sentence explaining the linguistic evidence."}'
     )
-
 
 
 @app.get("/api/health")
